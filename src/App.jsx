@@ -115,6 +115,7 @@ function App() {
     })
   }
 
+  
   async function getUser(id) {
     const userDoc = doc(db, 'users', id)
     const user = await getDoc(userDoc)
