@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/style": "^0.8.0",
+    "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.11.5",
     "@mui/styled-engine-sc": "^5.11.0",
     "@testing-library/dom": ">=7.21.4",
