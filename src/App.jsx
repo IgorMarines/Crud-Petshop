@@ -42,6 +42,7 @@ function App() {
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
+    borderRadius: 5,
   };
 
   const [users, setUsers] = useState([]) // armazena todos os usuarios cadastrados na aplicação
@@ -207,7 +208,7 @@ function App() {
           onClose={() => handleModal({})}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
-          sx={{display: 'flex', justifyContent: 'center', textAlign: 'center',}}
+          sx={{display: 'flex', justifyContent: 'center', textAlign: 'center'}}
         >
           <Box sx={style}>
             <Typography id="modal-modal-title" variant="h6" component="h2">
