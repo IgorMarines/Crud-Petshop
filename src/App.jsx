@@ -230,10 +230,13 @@ function App() {
 
 // configurações necessárias do firebase 
 const firebaseConfig = initializeApp({
-  apiKey: "AIzaSyDY1P8DKrnCaQuBWgBG90VDBoppXoBGYUo",
-  authDomain: "reactfirebase-aac94.firebaseapp.com",
-  projectId: "reactfirebase-aac94",
-  storageBucket: 'reactfirebase-aac94.appspot.com'
+  apiKey: "AIzaSyCzwOFWBxaEp06ngCaA2aBnvyzDbt6XcWE",
+  authDomain: "petshop-aae86.firebaseapp.com",
+  databaseURL: "https://petshop-aae86-default-rtdb.firebaseio.com",
+  projectId: "petshop-aae86",
+  storageBucket: "petshop-aae86.appspot.com",
+  messagingSenderId: "374216534790",
+  appId: "1:374216534790:web:bb6476b6f0f663fd09cc87"
 });
 
 export default App;
